@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KarFrame Suite" parallel="true" thread-count="05" data-provider-thread-count="05" verbose="02">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="framework.listeners.CustomListeners"/>
+    </listeners>
+
+    <test name="Add Customer Test">
+        <classes>
+            <class name="com.kar.framework.testcases.Sample"/>
+        </classes>
+    </test>
+
+    <!--<test name="All-tests">
+        <packages>
+            <package name="com.kar.framework.testcases" />
+        </packages>
+    </test>-->
+
+
+</suite>
