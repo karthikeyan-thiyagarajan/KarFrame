@@ -8,8 +8,8 @@ import org.testng.*;
 import java.io.IOException;
 
 public class CustomListeners extends KarFrame implements ITestListener, ISuiteListener {
-    public String messageBody;
     public static String methodName;
+    public String messageBody;
 
     public void onFinish(ITestContext arg0) {
 
@@ -38,7 +38,6 @@ public class CustomListeners extends KarFrame implements ITestListener, ISuiteLi
             Reporter.log("<br>");
             Reporter.log("<br>");
             Reporter.log("<a target=\"_blank\" href=" + Utilities.screenshotName + "><img src=" + Utilities.screenshotName + " height=200 width=200></img></a>");
-            //rep.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -49,12 +48,11 @@ public class CustomListeners extends KarFrame implements ITestListener, ISuiteLi
         log.debug(arg0.getName().toUpperCase() + "- Test is skipped");
         test.log(Status.SKIP, arg0.getName().toUpperCase() + "- Test is skipped");
 
-        //rep.flush();
     }
 
 
     public void onTestStart(ITestResult arg0) {
-        methodName=arg0.getTestClass().getRealClass().getSimpleName();
+        methodName = arg0.getTestClass().getRealClass().getSimpleName();
         test = rep.createTest(arg0.getName().toUpperCase());
 
     }
@@ -63,7 +61,7 @@ public class CustomListeners extends KarFrame implements ITestListener, ISuiteLi
 
         test.log(Status.PASS, arg0.getName().toUpperCase() + " PASS");
         log.info(arg0.getName().toUpperCase() + " PASS");
-        //rep.flush();
+
 
     }
 
@@ -76,24 +74,6 @@ public class CustomListeners extends KarFrame implements ITestListener, ISuiteLi
         }
         rep.flush();
 
-		/*MonitoringMail mail = new MonitoringMail();
-		 
-		try {
-			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/DataDrivenLiveProject/Extent_Reports/";
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
-		}
-	
-		try {
-			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
-		} catch (AddressException e) {
-			e.printStackTrace();
-		} catch (MessagingException e) {
-			e.printStackTrace();
-		}
-
-		*/
     }
 
     public void onStart(ISuite arg0) {
@@ -101,3 +81,4 @@ public class CustomListeners extends KarFrame implements ITestListener, ISuiteLi
         log.info("Test Started");
     }
 }
+
