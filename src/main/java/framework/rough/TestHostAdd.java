@@ -11,5 +11,4 @@ public class TestHostAdd {
 		mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
 
 	}*/
-
 }
