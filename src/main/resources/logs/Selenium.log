@@ -1,2 +1,58 @@
-11:20:39,942  INFO devpinoyLogger:101 - KarFrame - Test Started
-11:20:39,953  INFO devpinoyLogger:71 - KarFrame - Test Finished
+14:29:27,071  INFO devpinoyLogger:101 - KarFrame - Test Started
+14:29:27,081 DEBUG devpinoyLogger:149 - KarFrame - Config file loaded !!!
+14:29:27,081 DEBUG devpinoyLogger:162 - KarFrame - OR file loaded !!!
+14:29:27,110  INFO devpinoyLogger:65 - KarFrame - SAMPLE PASS
+14:29:27,111  INFO devpinoyLogger:65 - KarFrame - SAMPLE PASS
+14:29:27,120 DEBUG devpinoyLogger:467 - KarFrame - Browser Closed !!!
+14:29:27,121  INFO devpinoyLogger:71 - KarFrame - Test Finished
+14:29:27,136 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,136 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("extent_en_IN.ftl"): Not found
+14:29:27,137 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("extent_en.ftl"): Not found
+14:29:27,138 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("extent.ftl"): Found
+14:29:27,138 DEBUG cache:45 - KarFrame - Loading template for "extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/extent.ftl"
+14:29:27,263 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,263 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("head_en_IN.ftl"): Not found
+14:29:27,264 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+14:29:27,264 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("head.ftl"): Found
+14:29:27,266 DEBUG cache:45 - KarFrame - Loading template for "head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/head.ftl"
+14:29:27,277 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "nav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,277 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("nav_en_IN.ftl"): Not found
+14:29:27,278 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+14:29:27,279 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("nav.ftl"): Found
+14:29:27,279 DEBUG cache:45 - KarFrame - Loading template for "nav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/nav.ftl"
+14:29:27,286 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "test-view/test-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,287 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view_en_IN.ftl"): Not found
+14:29:27,288 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+14:29:27,288 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+14:29:27,288 DEBUG cache:45 - KarFrame - Loading template for "test-view/test-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/test-view.ftl"
+14:29:27,327 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,328 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view-charts_en_IN.ftl"): Not found
+14:29:27,328 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+14:29:27,328 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+14:29:27,328 DEBUG cache:45 - KarFrame - Loading template for "test-view/test-view-charts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/test-view-charts.ftl"
+14:29:27,337 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "test-view/standard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,338 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/standard_en_IN.ftl"): Not found
+14:29:27,338 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+14:29:27,338 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+14:29:27,338 DEBUG cache:45 - KarFrame - Loading template for "test-view/standard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/test-view/standard.ftl"
+14:29:27,351 DEBUG cache:45 - KarFrame - "test-view/standard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+14:29:27,352 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "category-view/category-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,352 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("category-view/category-view_en_IN.ftl"): Not found
+14:29:27,352 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+14:29:27,352 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+14:29:27,352 DEBUG cache:45 - KarFrame - Loading template for "category-view/category-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/category-view/category-view.ftl"
+14:29:27,356 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "exception-view/exception-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,356 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("exception-view/exception-view_en_IN.ftl"): Not found
+14:29:27,356 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+14:29:27,356 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+14:29:27,357 DEBUG cache:45 - KarFrame - Loading template for "exception-view/exception-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/exception-view/exception-view.ftl"
+14:29:27,359 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,359 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en_IN.ftl"): Not found
+14:29:27,359 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+14:29:27,360 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+14:29:27,360 DEBUG cache:45 - KarFrame - Loading template for "dashboard-view/dashboard-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/dashboard-view/dashboard-view.ftl"
+14:29:27,371 DEBUG cache:45 - KarFrame - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en_IN", UTF-8, parsed); will try to load it.
+14:29:27,372 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en_IN.ftl"): Not found
+14:29:27,372 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+14:29:27,372 DEBUG cache:45 - KarFrame - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+14:29:27,372 DEBUG cache:45 - KarFrame - Loading template for "logs-view/testrunner-logs-view.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/karthikeyan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/logs-view/testrunner-logs-view.ftl"

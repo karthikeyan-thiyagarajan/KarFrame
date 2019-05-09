@@ -1,8 +1,14 @@
 package framework.utilities;
 
+import javax.mail.*;
+import javax.mail.internet.*;
+import java.util.Properties;
+
+
 public class MonitoringMail
 {
-	/*public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody) throws MessagingException, AddressException
+	//public static void sendMail(String mailServer, String from,String username, String password,String port, String[] to, String subject, String messageBody, String attachmentPath, String attachmentName) throws MessagingException, AddressException
+	public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody) throws MessagingException, AddressException
 	{
 		boolean debug = false;
 		Properties props = new Properties();
@@ -31,7 +37,8 @@ public class MonitoringMail
 			Transport bus = session.getTransport("smtp");
 			bus.connect();
             Message message = new MimeMessage(session);
-
+        
+         //X-Priority values are generally numbers like 1 (for highest priority), 3 (normal) and 5 (lowest).
             
              message.addHeader("X-Priority", "1");
              message.setFrom(new InternetAddress(from));
@@ -44,11 +51,11 @@ public class MonitoringMail
              
              BodyPart body = new MimeBodyPart();
 
-             body.setText(messageBody);
-             body.setContent(messageBody,"text/html");
+            // body.setText(messageBody);
+            body.setContent(messageBody,"text/html");
 
-             BodyPart attachment = new MimeBodyPart();
-            // DataSource source = new FileDataSource(attachmentPath);
+             //BodyPart attachment = new MimeBodyPart();
+             //DataSource source = new FileDataSource(attachmentPath);
             // attachment.setDataHandler(new DataHandler(source));
              //attachment.setFileName(attachmentName);
              MimeMultipart multipart = new MimeMultipart();
@@ -75,6 +82,6 @@ public class MonitoringMail
 	        String password = TestConfig.password;
 	        return new PasswordAuthentication(username, password);
 	    }
-	}*/
+	}
 	
 }
